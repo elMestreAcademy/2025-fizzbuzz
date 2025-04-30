@@ -1,6 +1,6 @@
-contador = 100
+contador = 1
 
-while (contador >= 1):
+while (contador <= 100):
     if contador % 3 == 0 and contador % 5 == 0:
         print("fizzbuzz")
     elif contador % 3 == 0:
@@ -9,4 +9,4 @@ while (contador >= 1):
         print("buzz")
     else:
         print(contador)
-    contador = contador - 1
+    contador += 1
